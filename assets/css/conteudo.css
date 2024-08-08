@@ -1,0 +1,166 @@
+
+.main{
+    padding: 100px;
+}
+h2{
+    color: green;
+    align-items: center;
+    padding: 20px;
+    display: center;
+    text-align: center;
+}
+
+h4{
+    color: green;
+}
+
+
+.texto-conteudo{
+    display: none;
+    position: absolute;
+    border: 1px solid #bcd1b7;
+    border-radius: 10px;
+    background-color: #bcd1b7;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    font-variant: small-caps;
+    
+}
+.agrome-conteudo{
+    top: 105%;
+}
+
+.biotec-conteudo{
+    top: 105%;
+}
+.fisiologVA-conteudo{
+    top: 157%;
+}
+.cartografia-conteudo{
+    top: 157%;
+}
+
+.texto-conteudo:hover{
+    display: block;
+    width: 450px;
+}
+.curso-basico-img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.curso-basico-img:hover ~ .texto-conteudo{
+    display: block;
+    position: absolute;
+    max-width: 450px;
+}
+
+
+
+
+.cursos-basicos{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.curso-basico-nome{
+    text-align: center;
+}
+.conteudo-cursos-basicos{
+    padding: 10px;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.conteudo-adquirir-mais{
+    padding: 10px;
+}
+.adquira-mais-lista{
+    list-style: circle;
+    padding: 20px;
+}
+.aquiraMais-lista-item{
+    padding: 10px 0;
+}
+
+
+.lista-botao{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#planos{
+    display: grid;
+    grid-template-columns: 405px 405px 405px ;
+    grid-template-rows: 520px 300px;
+    justify-content: center;
+    align-items: start
+}
+.planos-lista-item{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.planos-lista-item:hover{
+    background-color: #46aa2e;
+    color: #bcd1b7;
+    transition: all 1s;
+}
+.plano-tipo{
+    padding: 5px;
+    margin: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.planos-definicao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    max-width: 100vw;
+    padding: 25px;
+   
+}
+.adquirir{
+    
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.adquirir:hover{
+    background-color: #46aa2e;
+    color: #bcd1b7;
+    transition: all 1s;
+}
+.preco-antigo{
+    text-decoration: line-through;
+    color: red;
+    font-size: 20px;
+}
+.botao-adquirir button{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    background-color: #46aa2e;
+    color: #bcd1b7;
+    border-radius: 10px;
+}
+.botao-adquirir button:hover{
+    background-color: #bcd1b7;
+    color: #46aa2e;
+    transition: all 1;
+}
+
+
+

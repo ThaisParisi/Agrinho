@@ -1,0 +1,137 @@
+*{margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 10px;
+    left: 10vw;
+    z-index: 1;
+}
+
+.cabecalho-logo-img{
+    width: 70px;
+}
+.tema-escuro:hover{
+    cursor: pointer;
+}
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    margin: 5px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 80vw;
+}
+.cabecalho-menu-lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5px;
+    margin: 0;
+    width: 400px;
+}
+.primeiro-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-lista-item{
+    list-style: none;
+    background-color: var(--cor-padrao);
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-pesquisa{
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: var(--cor-padrao);
+    border: 2px solid white;
+}
+.input-pesquisa:focus{
+    box-shadow: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+   
+}
+a:visited{
+    color:none;
+}
+div.usuario{
+    display: flex;
+    background-color: var(--cor-padrao);
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.cabecalho-menu-usuario{
+    display: none;
+    position: absolute;
+    top: 75%;
+    right: 0.3%;
+    background-color: var(--cor-cabecalho);
+    list-style: none;
+    width: 100%;
+    max-width: 100px;
+    
+}
+.cabecalho-menu-usuario:hover{
+    display: block;
+    position: absolute;
+    background-color: var(--cor-padrao);
+    list-style: none;
+    border-radius: 15px;
+}
+.usuario img{
+    width: 24px;
+}
+.menu-lista-item:hover{
+    color: green;
+}
+.usuario:hover ~ .cabecalho-menu-usuario {
+    display: block;
+    position: absolute;
+    border-radius: 15px;
+}
+.usu-menu-lista-item{
+    background-color: #46aa2e;
+    padding: 1em;
+    border-bottom: 1px solid white;
+}
+
+
+.usu-menu-lista-item:first-child{
+    border-radius: 10px 10px 0 0;
+}
+.usu-menu-lista-item:hover{
+    opacity: 0.9;
+}
+.input-pesquisa::placeholder{
+    text-align: center;
+    font-size: 14px;
+}
+.usu-menu-lista-item:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
+.main{
+    font-size: 30px;
+    padding: 100px;
+    margin: 100px;
+}
