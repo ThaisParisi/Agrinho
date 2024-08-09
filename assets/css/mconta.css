@@ -2,6 +2,13 @@
     padding: 10px;
     text-align: center;
 }
+
 .formas-de-pagamento{
-    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.formas-de-pagamento:hover{
+    background-color: #46aa2e;
+    color: white;
+    transition: all 1s;
 }

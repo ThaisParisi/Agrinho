@@ -8,6 +8,7 @@ const linkMenuLateral = document.querySelectorAll(".link-menu-lateral")
 const Main = document.querySelector('.main')
 const planosLink = document.querySelectorAll(".link-planos-lista")
 const textoConteudo = document.querySelectorAll(".texto-conteudo")
+const cursoBasicoNomeHtml = document.querySelectorAll('.curso-basico-nome-html')
 
 
 temaEscuro.onclick = function(){
@@ -16,7 +17,6 @@ temaEscuro.onclick = function(){
         document.body.style.backgroundColor = "#282c27"
         temaEscuro.textContent = "Tema Claro" 
         menuListaItem[0].style.backgroundColor = "#282c27"
-        menuListaItem[0].style.color = "#FFFFFF"
         menuListaItem[1].style.backgroundColor = "#282c27"
         menuListaItem[2].style.backgroundColor = "#282c27"
         input.style.backgroundColor = "#282c27"
@@ -30,6 +30,9 @@ temaEscuro.onclick = function(){
         
 
         Main.style.color = "#FFFFFF"
+        cursoBasicoNomeHtml[0].style.color = "FFFFFF"
+        
+        
         
         
 
