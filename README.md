@@ -14,7 +14,7 @@ O  projeto está 100% funcional em desktop, entretanto, não tem garantia de fun
 
 Entre e se divirta com desenhos autorais e estilizações que garantem a beleza e funcionalidade do site.
 
-Você consegue acessar e testar o projeto pelo seguinte link: ## Colocar o link
+Você consegue acessar e testar o projeto pelo seguinte link: https://thaisparisi.github.io/Agrinho/
 
 ## Tecnologias:
 
